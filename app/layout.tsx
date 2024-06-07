@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/header/Navbar";
 import Footer from "./components/footer/Footer";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,12 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link
-          rel="apple-touch-icon"
-          href="/icon.png"
-          type="image/png"
-          sizes="32x32"
-        />
+        <link rel="favicon" href="/icon.png" type="image" />
       </head>
       <body className={inter.className}>
         <Navbar />
