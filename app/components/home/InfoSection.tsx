@@ -5,13 +5,13 @@ import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
 export default function () {
   return (
-    <section className="max-w-4xl container mx-auto bg-secondary text-textColor">
+    <section className="max-w-4xl container mx-auto  bg-secondary text-textColor">
       <div className="py-8 px-6">
         <div>
-          <h1 className="font-philosopher font-bold text-4xl pt-4 px-4 font-serif">
+          <h1 className="font-philosopher font-bold text-4xl pt-4  font-serif">
             Rohit Kumar Amdahl <span className="text-sm">✨</span>
           </h1>
-          <p className=" px-4 py-2 text-lg font-semibold flex flex-wrap gap-4 ">
+          <p className="  py-2 text-lg font-semibold flex flex-wrap gap-4 ">
             Internship | Designer & Frontend developer at
             <span role="link" className="px-2 font-bold">
               <a
@@ -27,9 +27,9 @@ export default function () {
               alt="company logo"
             ></Image>
           </p>
-          <p className=" font-semibold px-4 py-2 text-lg">Oslo Norway</p>
-          <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl  ">
-            <p className=" px-4 text-lg py-2 capitalize flex  gap-2 items-center ">
+          <p className=" font-semibold text-lg">Oslo Norway</p>
+          <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl">
+            <p className=" px-4 text-lg py-2 capitalize flex  gap-2 items-center">
               {" "}
               <MdOutlineWorkOutline size={20} /> open to new opportunities /
               Work.
