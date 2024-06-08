@@ -12,7 +12,9 @@ export const metadata: Metadata = {
   description:
     "Passionate frontend developer with a design background. Proficient in HTML, CSS, JavaScript, React, Tailwind CSS, and responsive design. Explore my diverse portfolio for captivating and responsive online solutions! Let's bring your ideas to life.",
   icons: {
-    icon: "/public/apple-touch-icon.png",
+    icon: ["/favicon.ico?v=4"],
+    apple: ["/apple-touch-icon.png?v=4"],
+    shortcut: ["/apple-touch-icon.png?v=4"],
   },
 };
 
@@ -23,9 +25,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
-        <link rel="favicon" href="/icon.png" type="image" />
-      </head>
       <body className={inter.className}>
         <Navbar />
         <main>{children}</main>

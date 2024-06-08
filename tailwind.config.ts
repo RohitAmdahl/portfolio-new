@@ -8,15 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
       colors: {
         primary: "#413C3C",
         secondary: "#2E2A2A",
         textColor: "#CFCFCF",
+      },
+      image: {
+        banner: "url('/app/images/bg_0.png')",
       },
     },
   },
