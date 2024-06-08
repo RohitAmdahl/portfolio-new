@@ -5,12 +5,12 @@ import { FaGithub } from "react-icons/fa";
 
 export default function () {
   return (
-    <section className="max-w-4xl container mx-auto">
+    <section className="max-w-4xl container mx-auto text-textColor mt-16 ">
       <div className=" bg-banner bg-no-repeat bg-cover max-w[150px] w-full h-[250px] border-8 border-secondary rounded-lg">
-        <div className="flex justify-between items-baseline gap-5 pt-16 px-4">
+        <div className="flex justify-between items-baseline gap-5 pt-16 px-4 mt-8">
           <div className="max-w-[150px] w-full">
             <Image
-              className="max-w-[170px] w-full mx-auto border-8 border-emerald-600 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-3xl   "
+              className="max-w-[170px] w-full mx-auto border-8 border-emerald-600 shadow-2xl shadow-zinc-600 bg-backgroundColor rounded-full"
               src={myPic}
               alt="logo"
             ></Image>
