@@ -13,8 +13,8 @@ const config: Config = {
         secondary: "#2E2A2A",
         textColor: "#CFCFCF",
       },
-      image: {
-        banner: "url('/app/images/bg_0.png')",
+      backgroundImage: {
+        banner: "url('/bg_0.png')",
       },
     },
   },
