@@ -2,23 +2,8 @@ import holiday from "../images/holidaze_0.png";
 import oneShop from "../images/one-shop.png";
 import aution from "../images/auction.png";
 import barnehage from "../images/barnehage.png";
-import type { StaticImageData } from "next/image";
 
-export type project = {
-  id: number;
-  title: string;
-  description: string;
-  description_: string;
-  description_1?: string;
-  description_2?: string;
-  description_3?: string;
-  imgUrl: StaticImageData;
-  tech?: string[];
-  liveDemo: string;
-  githubLink: string;
-};
-
-export const data: project[] = [
+export const data = [
   {
     id: 1010,
     title: "Barnehage: A Next.js Journey",
@@ -75,18 +60,5 @@ export const data: project[] = [
     tech: ["HTML", "JavaScript", "Sass", "bootstrap", "Figma", "Netlify"],
     liveDemo: "https://monumental-tulumba-33a98f.netlify.app",
     githubLink: "https://github.com/RohitAmdahl/semster-project-2-",
-  },
-  {
-    id: 4,
-    title: "rainyday",
-    description:
-      "I gathered design inspiration from pictures, created an inspiration board, and developed personas. I installed Hotjar for insights, designed layouts and wireframes, progressing from low to high fidelity and prototypes.",
-    description_:
-      " I implemented the designs into WordPress, set up products, made API calls, and conducted usability tests for a better user experience. Ensured responsiveness for the website.",
-    imgUrl: rainy,
-    tech: ["HTML", "CSS", "JavaScript", "Figma", "Netlify"],
-    liveDemo: "https://my-frist-website-rainyday.netlify.app",
-    githubLink:
-      "https://github.com/RohitAmdahl/cross-course-project-RohitAmdahl",
   },
 ];
