@@ -2,7 +2,6 @@ import Image from "next/image";
 import logo from "@/app/images/logo.png";
 import Link from "next/link";
 import { MdOutlineFileDownload } from "react-icons/md";
-import TopSection from "../home/TopSection";
 
 export default function Navbar() {
   return (
