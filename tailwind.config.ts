@@ -12,6 +12,7 @@ const config: Config = {
         primary: "#413C3C",
         secondary: "#2E2A2A",
         textColor: "#CFCFCF",
+        link: "#FFFCB5",
       },
       backgroundImage: {
         banner: "url('/bg_0.png')",

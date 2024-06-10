@@ -15,7 +15,7 @@ export default function () {
             Internship | Designer & Frontend developer at
             <span role="link" className="px-2 font-bold">
               <a
-                className="underline hover:text-green-500 transition duration-100"
+                className="underline text-link hover:text-green-500 transition duration-100"
                 href="https://cleanseasolutions.no"
               >
                 Clean Sea Solutions AS
