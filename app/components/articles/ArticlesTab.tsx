@@ -58,7 +58,7 @@ export default function BlogsTab() {
               <p className="font-roboto text-sm"> {description}</p>
               <div className="flex justify-between items-center p-2"></div>
               <Link
-                className=" underline hover:text-green-500 transition duration-100 py-2 text-lg font-semibold"
+                className=" underline hover:text-pink-100 transition duration-100 py-2 text-lg font-semibold text-link"
                 href={link}
                 target="_blank"
                 title="Read More"
