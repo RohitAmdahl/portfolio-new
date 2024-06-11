@@ -9,7 +9,9 @@ const TabButtons = () => {
       className={"max-w-4xl container mx-auto shadow-sm "}
     >
       <TabList className="grid  grid-cols-3 items-center py-3 px-2 text-textColor text-xl rounded-full ring-4 ring-primary gap-4 bg-secondary ">
-        <Tab className={"border-r-2 text-link border-bg-secondary rounded-2xl"}>
+        <Tab
+          className={" border-r-2 text-link border-bg-secondary rounded-2xl"}
+        >
           About
         </Tab>
         <Tab

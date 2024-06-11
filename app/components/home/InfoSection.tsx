@@ -15,7 +15,7 @@ export default function () {
             Internship | Designer & Frontend developer at
             <span role="link" className="px-2 font-bold">
               <a
-                className="underline text-link hover:text-green-500 transition duration-100"
+                className="underline text-link hover:text-pink-100 transition duration-100"
                 href="https://cleanseasolutions.no"
               >
                 Clean Sea Solutions AS
@@ -29,7 +29,7 @@ export default function () {
           </p>
           <p className=" font-semibold text-lg">Oslo Norway</p>
           <div className=" max-w-sm mt-4 text-lg  bg-primary rounded-2xl">
-            <p className=" px-4 text-lg py-2 capitalize flex  gap-2 items-center">
+            <p className=" px-4 text-lg py-2 capitalize flex text-pink-100  gap-2 items-center">
               {" "}
               <MdOutlineWorkOutline size={20} /> open to new opportunities /
               Work.
@@ -54,7 +54,7 @@ export default function () {
               title="Email"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
             >
-              <MdOutlineEmail />
+              <MdOutlineEmail size={22} />
               Email
             </Link>
           </div>

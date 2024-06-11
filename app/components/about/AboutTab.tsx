@@ -30,14 +30,14 @@ export default function () {
           </p>
           <div className="p-4">
             <Link
-              className="hover:underline text-textColor hover:text-green-500 transition duration-100"
+              className="hover:underline text-link hover:text-pink-100 transition duration-100"
               href="https://www.linkedin.com/pulse/naming-things-hard-rohit-kumar-amdahl-wwlzf/"
             >
               - Naming Things Is Hard:- english version of this article
             </Link>
             <div>
               <Link
-                className="hover:underline text-textColor hover:text-green-500 transition duration-100"
+                className="hover:underline text-link hover:text-pink-100 transition duration-100"
                 href="https://www.kode24.no/artikkel/vanskelig-a-lage-gode-navn-synes-rohit-men-har-3-gode-tips/80865316"
               >
                 - Naming Things Is Hard:- norwegian version of this article by
