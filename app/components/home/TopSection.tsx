@@ -1,4 +1,4 @@
-import myPic from "@/app/images/profileImg.jpg";
+import myPic from "../../images/profileImg.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { FaGithub } from "react-icons/fa";

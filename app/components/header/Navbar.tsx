@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from "@/app/images/logo.png";
+import logo from "../../images/logo.png";
 import Link from "next/link";
 import { MdOutlineFileDownload } from "react-icons/md";
 

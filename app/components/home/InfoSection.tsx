@@ -1,5 +1,5 @@
 import { MdOutlineEmail, MdOutlineWorkOutline } from "react-icons/md";
-import cleanLogo from "@/app/images/LogoCleansea.png";
+import cleanLogo from "../../images/LogoCleansea.png";
 import Image from "next/image";
 import { FaLinkedin } from "react-icons/fa";
 import Link from "next/link";
