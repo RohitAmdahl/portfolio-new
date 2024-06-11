@@ -18,7 +18,7 @@ export default function () {
           <div>
             <div className="gap-5 ">
               <Link
-                href="https://discord.com/828741507258646636"
+                href="https://github.com/RohitAmdahl"
                 target="_blank"
                 title="Discord"
                 className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 flex justify-center items-center gap-2 rounded-xl shadow-shadow hover:shadow-inner duration-75 ease-in-out shadow-black ring-4 ring-blue-500 text-sm "
