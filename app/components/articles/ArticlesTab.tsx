@@ -43,7 +43,6 @@ export const blogs = [
   },
 ];
 export default function BlogsTab() {
-  console.log(blogs);
   return (
     <section className="grid grid-cols-1 gap-2 lg:grid-cols-2 md:grid-cols-2 bg-secondary text-textColor px-3 py-3 ">
       {blogs.map((blog) => {
