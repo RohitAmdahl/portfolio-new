@@ -8,7 +8,7 @@ export default function () {
     <section className="max-w-4xl container mx-auto  bg-secondary text-textColor">
       <div className="py-8 px-6">
         <div>
-          <h1 className="font-philosopher font-bold text-4xl pt-4  font-serif">
+          <h1 className="font-bold text-4xl pt-4  font-serif">
             Rohit Kumar Amdahl <span className="text-sm">✨</span>
           </h1>
           <p className="  py-2 text-lg font-semibold flex flex-wrap gap-4 ">
